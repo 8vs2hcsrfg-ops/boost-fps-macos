@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "dev.applesiliconboost.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MinecraftMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

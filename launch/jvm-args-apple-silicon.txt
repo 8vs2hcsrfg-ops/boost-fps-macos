@@ -1,0 +1,8 @@
+-Xms4G
+-Xmx4G
+-XX:+UseZGC
+-XX:+AlwaysPreTouch
+-XX:+UseStringDeduplication
+-XX:+PerfDisableSharedMem
+-XX:-UsePerfData
+-Dfile.encoding=UTF-8

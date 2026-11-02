@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "applesiliconboost",
+  "version": "${version}",
+  "name": "Apple Silicon Boost",
+  "description": "Tự động điều chỉnh chất lượng hình ảnh theo FPS thực tế để giữ game mượt trên Mac chip Apple Silicon (M1/M2/M3/M4...).",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.applesiliconboost.AppleSiliconBoostClient"]
+  },
+  "mixins": ["applesiliconboost.mixins.json"],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
